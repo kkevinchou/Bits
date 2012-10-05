@@ -1,4 +1,4 @@
-package bits.game;
+package bits.util;
 
 public class IntGenerator {
 	private int nextInt;

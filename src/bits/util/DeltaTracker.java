@@ -1,6 +1,5 @@
-package bits.game;
+package bits.util;
 
-import bits.util.Util;
 
 public class DeltaTracker {
 	long lastTick;

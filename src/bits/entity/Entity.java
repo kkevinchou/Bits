@@ -1,6 +1,6 @@
 package bits.entity;
 
-import bits.game.IntGenerator;
+import bits.util.IntGenerator;
 
 public abstract class Entity {
 	private float x;
