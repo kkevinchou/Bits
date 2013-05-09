@@ -13,6 +13,15 @@ public class Bit extends Entity {
 		steerComponent = new SteerComponent(this);
 	}
 	
+	public final Vector2D getPosition() {
+		return new Vector2D(getX() + getWidth() / 2, getY() + getHeight() / 2);
+	}
+	
+	public final void setPosition(final Vector2D position) {
+		this.setX(position.getX() - this.getWidth() / 2);
+		this.setY(position.getY() - this.getHeight() / 2);
+	}
+	
 	public final Vector2D getHeading() {
 		return steerComponent.getHeading();
 	}

@@ -60,8 +60,4 @@ public final class Vector2D {
 	public float getY() {
 		return y;
 	}
-	
-	public Vector2D copy() {
-		return new Vector2D(x, y);
-	}
 }

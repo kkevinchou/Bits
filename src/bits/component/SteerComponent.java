@@ -22,6 +22,12 @@ public class SteerComponent {
 		velocity = new Vector2D();
 		acceleration = new Vector2D();
 		
+		/*
+		double randomHeading = Random.getInstance().nextDouble(Math.PI);
+		heading = new Vector2D(randomHeading * Math.cos(randomHeading), randomHeading * Math.sin(randomHeading));
+		heading = heading.normalize();
+		*/
+		
 		heading = new Vector2D(0, -1);
 		heading = heading.normalize();
 		
