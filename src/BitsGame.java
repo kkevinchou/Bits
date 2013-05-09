@@ -30,11 +30,6 @@ public class BitsGame extends BasicGame {
 	public void init(GameContainer gc) throws SlickException {
 		bits = new ArrayList<Bit>();
 		bits.add(new Bit(300, 300, 30, 30));
-		bits.add(new Bit(300, 300, 30, 30));
-		bits.add(new Bit(300, 300, 30, 30));
-		bits.add(new Bit(300, 300, 30, 30));
-		bits.add(new Bit(300, 300, 30, 30));
-		bits.add(new Bit(300, 300, 30, 30));
 	}
 	
 	private void renderWanderTarget(Graphics g) {
@@ -81,8 +76,8 @@ public class BitsGame extends BasicGame {
 		
 		g.draw(sprite);
 		
-//		renderWanderTarget(g);
-//		renderWanderCircle(g);
+		renderWanderTarget(g);
+		renderWanderCircle(g);
 	}
 
 	public void render(GameContainer gc, Graphics g) throws SlickException {
